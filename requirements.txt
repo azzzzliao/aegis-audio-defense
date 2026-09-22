@@ -1,0 +1,14 @@
+# AEGIS runtime (Gemma 4, Voxtral, Qwen2-Audio, Phi-4) and evaluation scripts.
+# Ultravox v0.5 and VITA-1.5 pin their own Transformers versions; see README.
+torch>=2.4
+transformers     # version depends on the model; see the table in README.md
+accelerate
+huggingface_hub
+librosa
+soundfile
+numpy
+pandas
+pyarrow          # scripts/prepare_data.py reads the JALMBench parquet files
+tqdm
+scikit-learn     # aegis/analysis (layer probes, PCA / t-SNE)
+matplotlib       # figures
