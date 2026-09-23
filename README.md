@@ -13,7 +13,7 @@ closed-loop scaling at inference.
 |---|---|
 | [Method](docs/method.md) | The risk-to-refusal gap, the gate and the adapters, the training loss, the closed loop. |
 | [Results](docs/results.md) | The paper's tables: six models, three benchmarks, the ablation, and the defense comparison. |
-| [Analyses beyond the paper](docs/analysis/README.md) | Six-model risk-to-refusal gap, gate behaviour, representations, further ablations. |
+| [Analyses beyond the paper](docs/analysis/README.md) | The risk-to-refusal gap in the other five models, gate behaviour, representations, the full ablation table. |
 | [Data](data/README.md) | Where each dataset comes from and how the manifests are built. |
 | [Adding a model](docs/ADDING_A_MODEL.md) | Porting AEGIS to another LALM by writing one adapter. |
 
@@ -40,8 +40,7 @@ scripts/
   run_aegis.sh                steps 1-4 for one protocol (PROTOCOL=indomain or lobo)
   run_ablation.sh             the Full and Always-on ablations
   models.sh                   per-model gate layer, intervention layers, prompt mode
-  build_trainsets.py, calibrate_threshold.py, summarize.py, plot_gate_auroc.py
-  analysis/                   the studies in docs/analysis (gap pipeline, gate scores)
+  build_trainsets.py, calibrate_threshold.py, summarize.py
 data/splits/                  in-domain train/test ids used in the paper
 docs/                         method, results, analyses, porting guide
 tests/                        CPU tests of the evaluation protocol

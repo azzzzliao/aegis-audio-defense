@@ -38,7 +38,7 @@ but removes the gate. The same ablation on Gemma-4 and Voxtral is
 
 ## Comparison with representative defenses on Qwen2-Audio
 
-The baseline implementations are not part of this repository.
+Faithful Implementation of these baselines:
 
 | Method | AJail ↓ | JALM ↓ | SACRED ↓ | ΔOR ↓ |
 |---|---:|---:|---:|---:|
