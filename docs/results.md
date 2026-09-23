@@ -38,6 +38,18 @@ but removes the gate. The same ablation on Gemma-4 and Voxtral is
 
 ## Comparison with representative defenses on Qwen2-Audio
 
+Same Training Dataset setting:
+| Method | AJail ↓ | JALM ↓ | SACRED ↓ | OR ↓ |
+|---|---:|---:|---:|---:|
+| Vanilla | 12.55 | 16.70 | 42.45 | 36.80 |
+| RRS (EMNLP'25) | 11.61 | 26.32 | 38.71 | +11.33 |
+| OmniSteer (arXiv'26) | 12.21 | 17.02 | 42.96 | **+0.80** |
+| ALMGuard (NeurIPS'25) | 13.09 | 22.73 | 43.55 | +12.00 |
+| SARSteer (ICML'26) | *4.43* | *6.13* | 26.91 | +41.60 |
+| ASR (OpenAI'23) | 12.15 | 31.09 | *3.17* | *+1.40* |
+| PBD-JBB (NeurIPS'24) | 9.73 | 26.96 | 33.94 | +12.00 |
+| **AEGIS (Ours, LOBO)** | **0.80** | **0.80** | **0.00** | +5.30 |
+
 Faithful Implementation of these baselines:
 
 | Method | AJail ↓ | JALM ↓ | SACRED ↓ | ΔOR ↓ |
