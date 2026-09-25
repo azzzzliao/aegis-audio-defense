@@ -1,9 +1,10 @@
 # AEGIS: Audio Endogenous Guarding via Internal Signals Against Large Audio-Language Model Jailbreaks
 
-Yu-Ling Liao\*, Tzu-Chin Chiu\*, Zong-You Chen\*, Chi-Lei Tsai\*, Shao-Yuan Lo — National
-Taiwan University (\*equal contribution)
+[![arXiv](https://img.shields.io/badge/arXiv-2609.29287-b31b1b.svg)](https://arxiv.org/abs/2609.29287)
+[![License](https://img.shields.io/badge/License-MIT-3da639.svg)](LICENSE)
 
-Paper: [arXiv:2609.29287](https://arxiv.org/abs/2609.29287) (submitted to ICASSP 2027).
+Yu-Ling Liao\*, Tzu-Chin Chiu\*, Zong-You Chen\*, Chi-Lei Tsai\*, Shao-Yuan Lo — National
+Taiwan University (\*equal contribution) · submitted to ICASSP 2027
 
 AEGIS keeps the target audio-language model frozen and adds a mid-layer risk gate that
 conditionally drives late-layer safety adapters, with closed-loop scaling at inference.
