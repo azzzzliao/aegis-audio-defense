@@ -3,9 +3,10 @@
 Yu-Ling Liao\*, Tzu-Chin Chiu\*, Zong-You Chen\*, Chi-Lei Tsai\*, Shao-Yuan Lo — National
 Taiwan University (\*equal contribution)
 
-Code for the ICASSP 2027 submission. AEGIS keeps the target audio-language model frozen
-and adds a mid-layer risk gate that conditionally drives late-layer safety adapters, with
-closed-loop scaling at inference.
+Paper: [arXiv:2609.29287](https://arxiv.org/abs/2609.29287) (submitted to ICASSP 2027).
+
+AEGIS keeps the target audio-language model frozen and adds a mid-layer risk gate that
+conditionally drives late-layer safety adapters, with closed-loop scaling at inference.
 
 ## Contents
 
@@ -159,11 +160,14 @@ python -m unittest discover tests
 ## Citation
 
 ```bibtex
-@misc{liao2027aegis,
-  title  = {{AEGIS}: Audio Endogenous Guarding via Internal Signals Against Large Audio-Language Model Jailbreaks},
-  author = {Liao, Yu-Ling and Chiu, Tzu-Chin and Chen, Zong-You and Tsai, Chi-Lei and Lo, Shao-Yuan},
-  note   = {Submitted to ICASSP 2027},
-  year   = {2026}
+@misc{liao2026aegis,
+  title         = {{AEGIS}: Audio Endogenous Guarding via Internal Signals Against Large Audio-Language Model Jailbreaks},
+  author        = {Liao, Yu-Ling and Chiu, Tzu-Chin and Chen, Zong-You and Tsai, Chi-Lei and Lo, Shao-Yuan},
+  year          = {2026},
+  eprint        = {2609.29287},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SD},
+  url           = {https://arxiv.org/abs/2609.29287}
 }
 ```
 
